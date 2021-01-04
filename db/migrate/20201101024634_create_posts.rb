@@ -3,7 +3,7 @@ class CreatePosts < ActiveRecord::Migration[6.0]
     create_table :posts do |t|
      t.text :content
      t.boolean :checked
-      t.timestamps
+     t.timestamps
     end
   end
 end
